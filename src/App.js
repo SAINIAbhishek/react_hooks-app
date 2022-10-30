@@ -1,4 +1,4 @@
-import Accordion from "./components/Accordion";
+import Search from "./components/Search";
 
 const items = [
   {
@@ -33,7 +33,7 @@ const options = [
 function App() {
   return (
     <div>
-      <Accordion items={items}/>
+      <Search />
     </div>
   );
 }
