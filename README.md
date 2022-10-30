@@ -1,5 +1,13 @@
 # React Hooks
 
+It is a learning project under the course 'Modern React with Redux' on the udemy. This application gives me the opportunity to learn about the React Hooks system.
+
+In this application we are going to build 4 different widgets. We will put navigation.
+1. Accordion widget - useState hook
+2. Search widget - useState & useEffect hooks
+3. Dropdown widget - useState, useEffect & useRef hooks
+4. Translate widget - useState, useEffect & useRef hooks
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
