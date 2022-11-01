@@ -1,5 +1,4 @@
-import Dropdown from "./components/Dropdown";
-import {useState} from "react";
+import Translate from "./components/Translate";
 
 const items = [
   {
@@ -32,11 +31,9 @@ const options = [
 ];
 
 export default () => {
-  const [selected, setSelected] = useState(options[0]);
-
   return (
     <div>
-      <Dropdown options={options} label='Select color' selected={selected} onSelectedChange={setSelected} />
+      <Translate />
     </div>
   );
 };
