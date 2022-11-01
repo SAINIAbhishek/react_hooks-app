@@ -1,4 +1,5 @@
-import Search from "./components/Search";
+import Dropdown from "./components/Dropdown";
+import {useState} from "react";
 
 const items = [
   {
@@ -30,12 +31,12 @@ const options = [
   },
 ];
 
-function App() {
+export default () => {
+  const [selected, setSelected] = useState(options[0]);
+
   return (
     <div>
-      <Search />
+      <Dropdown options={options} label='Select color' selected={selected} onSelectedChange={setSelected} />
     </div>
   );
-}
-
-export default App;
+};
